@@ -10,6 +10,12 @@ public class Profesor implements IPersona, ITrabajador, IProfesor{
 		this.setsDni(sDni);
 		this.setiEdad(iEdad);
 	}
+	
+	public void Universisdad(String sUniversidad) {
+		setsUniversidad(sUniversidad);
+	}
+	
+	
 	@Override
 	public String getsNombre() {
 		return sNombre;
