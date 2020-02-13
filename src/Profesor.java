@@ -13,7 +13,7 @@ public class Profesor implements IPersona, ITrabajador, IProfesor{
 	
 	public String QueUniversidad(String sUniversidad) {
 		String sResultado="";
-		sResultado+= setsUniversidad(sUniversidad);
+		sResultado+= setsUniversidad(sUniversidad)+" *";
 		
 		return sResultado;
 	}
