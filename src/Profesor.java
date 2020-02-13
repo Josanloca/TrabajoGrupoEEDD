@@ -11,8 +11,11 @@ public class Profesor implements IPersona, ITrabajador, IProfesor{
 		this.setiEdad(iEdad);
 	}
 	
-	public void Universisdad(String sUniversidad) {
-		setsUniversidad(sUniversidad);
+	public String QueUniversidad(String sUniversidad) {
+		String sResultado="";
+		sResultado+= setsUniversidad(sUniversidad);
+		
+		return sResultado;
 	}
 	
 	
